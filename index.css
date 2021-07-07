@@ -1,0 +1,360 @@
+:root {
+    --main: #121619;
+    --secondary: #30373E;
+    --highlight: #05C89F;
+    --text: #F7F7F2;
+  }
+
+body{
+    margin:0;
+    padding:0;
+    background-color: var(--main);
+    font-family: 'Montserrat';
+}
+
+
+
+nav ul {
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main);
+    margin-right:180px;
+    margin-top:24px;
+    float: right;
+  }
+  
+ nav  li {
+    float: left;
+  }
+  
+ nav  li a {
+    display: block;
+    color: var(--highlight);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ nav li a:hover {
+    background-color:var(--highlight);
+    color:var(--main);
+    border-radius:25px;
+  }
+
+  #intro{
+      height: 100vh;
+      width:1536px;
+  }
+
+  #mainContent{
+        position: absolute;
+        margin-top:30vh;
+        margin-left:192px;
+        color:var(--text);
+      /* background-color:green; */
+  }
+
+  #mainContent h1{
+    font-size: 60px;
+    margin-top:-50px;
+  }
+
+  #mainContent h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  #mainAboutButton{
+    border: 2px solid var(--highlight);
+    color: var(--highlight);
+    background-color: var(--main);
+    font-size:24px;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right:40px;
+  }
+
+  #mainAboutButton:hover{
+    border: 2px solid var(--highlight);
+    color:var(--main);
+    background-color: var(--highlight);
+  }
+
+  #mainWorkButton{
+    border: 2px solid var(--highlight);
+    color:var(--main);
+    background-color: var(--highlight);
+    font-size:24px;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  #mainWorkButton:hover{
+    border: 2px solid var(--highlight);
+    color: var(--highlight);
+    background-color: var(--main);
+  }
+
+  #about{
+    width:1536px;
+    height:564px;
+    background-color:var(--secondary);
+    border-radius: 16px;
+    color:var(--text);
+    margin:auto;
+  }
+
+  #aboutContent{
+    width: 680px;
+    float:right;
+    margin-right:240px;
+    margin-top:120px;
+  }
+  
+  #aboutContent h1{
+      color:var(--highlight);
+      font-size: 38px;
+  }
+
+  #aboutcontent p{
+    margin-top: -20px;
+  }
+
+  .aboutButton{
+      color:var(--text);
+      background-color: var(--main);
+      float:left;
+      padding:12px 54px;
+      border: none;
+      border-radius: 5px;
+      font-size:24px;
+      margin-right:30px;
+      margin-top:50px;
+  }
+
+  .aboutButton:hover{
+      color:var(--main);
+      background-color: var(--highlight);
+  }
+
+  #about img{
+    width:442px;
+    margin-left: 97px;
+    margin-top:61px;
+  }
+
+  #skill{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    max-width:1536px;
+    margin: auto;
+  }
+
+  #skillHeader{
+      font-size: 40px;
+      color:var(--highlight);
+
+      max-width:1536px;
+      margin-left: auto;
+      margin-right:auto;
+  }
+
+  .skillBox{
+    width:420px;
+    height: 490px;
+    color: var(--text);
+    background-color: var(--secondary);
+    border-radius: 10px;
+
+  }
+  
+  .skillContent{
+      max-width: 280px;
+        padding-top:50px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align: center;
+  }
+
+  .dot{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: var(--highlight);
+      display: inline-block;
+  }
+
+  #topNumber{
+      font-size: 38px;
+      margin-top: 6px;
+      font-weight: 600;
+  }
+
+  .skillButton{
+    width: 270px;
+    height: 60px;
+    margin: auto;
+    color:var(--secondary);
+    background-color: var(--highlight);
+    border: none;
+    font-size: 24px;
+    margin: auto;
+  }
+
+  .skillContent h2{
+    font-size:38px;
+    color:var(--highlight);
+    margin-bottom: -10px;
+  }
+
+  .skillContent p{
+      margin-bottom: 30px;
+  }
+
+  .highlight{
+      color:var(--highlight);
+  }
+
+  #myWork{
+    width: 100vw-20px;
+    height: 391px;
+    background-color: var(--highlight);
+    color:var(--main);
+  }
+
+  #myWork h1{
+    max-width: 576px;
+    font-size: 60px;
+    color:var(--main);
+  }
+
+  #myWorkContent{
+    margin-top:20px;
+    padding: 20px 0;
+    max-width:1536px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #myWorkButton{
+    width:223px !important;
+    height: 60px !important;
+    border: none;
+    border-radius: 5px;
+    font-size:24px;
+    color:var(--text);
+    background-color:var(--main);
+    text-decoration: none;
+  }
+
+  #myWorkButton:hover{
+    border:2px solid var(--main);
+    color:var(--main);
+    background-color: var(--highlight);
+  }
+
+  #myWork i{
+    font-size:200px;
+    float:right;
+    margin-top:-190px;
+    margin-right:180px;
+  }
+
+  #contactBox{
+    /* height:1035px; */
+    max-width: 1536px;
+    margin-left:auto;
+    margin-right:auto;
+    /* background-color: var(--secondary); */
+  }
+
+  #contact{
+    font-size:40px;
+    color:var(--highlight);
+  }
+
+  #contactForm{
+    width:642px;
+    height:765px;
+    background-color:var(--main);
+    float:left;
+  }
+
+  #contactForm label{
+    font-size:18px;
+    color:var(--highlight);
+  }
+
+  #contactForm #name,#subject,#email{
+    background-color: var(--secondary);
+    color:var(--text);
+    width:427px;
+    height:48px;
+    border-radius: 6px;
+    border:none;
+    margin-bottom: 20px;
+  }
+
+  #contactForm textarea{
+    background-color: var(--secondary);
+    color:var(--text);
+    width:427px;
+    height:182px;
+    border-radius: 6px;
+    border:none;
+  }
+
+  #send{
+    border-radius: 6px;
+    background-color: var(--highlight);
+    border: none;
+    color:var(--main);
+    width: 180px;
+    height:55px;
+    font-size:18px;
+    margin-top:20px;
+    font-weight: 700;
+  }
+
+  #send:hover{
+    background-color:var(--main);
+    border: 2px solid var(--highlight);
+    color:var(--highlight);
+  }
+
+  #socials{
+    float:left;
+    margin-left:60px;
+  }
+
+  #socials h2{
+    color:var(--highlight);
+    font-size: 32px;
+  }
+
+  #socials i{
+    font-size:40px;
+    width:60px;
+    color:var(--highlight);
+  }
+
+  #socials a{
+    text-decoration: none;
+    color:var(--highlight);
+    margin-left:20px;
+    /* text-align: center; */
+  }
+
+  #socials img{
+    width:566px;
+    height: 365px;
+    object-fit: cover;
+  }

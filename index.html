@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="overview.html">Work</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="intro">
+            <section id="mainContent">
+                <h2>Hello!</h2>
+                <h1>I'm <a class="highlight">Sam</a>,</h1>
+                <h1>A <a class="highlight">Front-end Developer</a></h1>
+                <div id="Mainbuttons">
+                    <button type="button" id="mainAboutButton" onclick="window.location.href='#contact'">About</button>
+                    <button type="button" id="mainWorkButton" onclick="window.location.href='overview.html'">My Work</button>
+                </div>
+            </section>
+        </div>
+       
+        <section id="about">
+            <img src="img/Logo.svg" alt="logoBig">
+            <div id="aboutContent">
+                <h1>About me.</h1>
+                <p>Hello there! My name is <a class="highlight">Sam</a> and I am currently attending The Hague University of applied sciences to become a <a class="highlight">frontend developer</a>. Doing so at the study Communication and Multimedia Design, where I learn the whole cycle of the creative design process.</p>
+                <button type="button" class="aboutButton" onclick="window.location.href='#contact'">Contact</button>
+                <button type="button" class="aboutButton" onclick="window.location.href='overview.html'">My Work</button>
+            </div>
+        </section>
+        <h1 id="skillHeader">Skills.</h1>
+        <section id="skill">
+
+            <div class="skillBox">
+                <div class="skillContent">
+                    <span class="dot"><p id="topNumber">1</p></span>
+                    
+                    <h2>Front-end development</h2>
+                    <p>Front-end development is what I enjoy doing the most, I love making websites and see an idea  come to live and become fully functional.</p>
+                    <button type="button" class="skillButton">More information</button>
+                </div>
+            </div>
+
+            <div class="skillBox">
+                <div class="skillContent">
+                    <span class="dot"><p id="topNumber">2</p></span>
+                    
+                    <h2>Back-end development</h2>
+                    <p>Because of a previous study as a developer I do have experience with back end development as well as working with databases, certified in MySQL.</p>
+                    <button type="button" class="skillButton">More information</button>
+                </div>
+            </div>
+
+            <div class="skillBox">
+                <div class="skillContent">
+                    <span class="dot"><p id="topNumber">3</p></span>
+                    
+                    <h2>SEO</h2>
+                    <p>Experience with SEO due to a previous internship at a web development / web design agency.</p>
+                    <button type="button" class="skillButton">More information</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="myWork">
+            <div id="myWorkContent">
+                <h1>Check out my previous projects.</h1>
+                <button type="button" id="myWorkButton" onclick="window.location.href='overview.html'">See more</button>
+                <i class="fas fa-folder-open"></i>
+            </div>
+        </section>
+
+        <section id="contactBox">
+            <h1 id="contact">Contact.</h1>
+            <form id="contactForm">
+                <label for="fname">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="fname">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="fname">Subject</label><br>
+                <input type="text" id="subject" name="subject"><br>
+                <label for="fname">Message</label><br>
+                <textarea>Message...</textarea><br>
+                <input type="button" value="Send" id="send">
+            </form>
+            <div id="socials">
+                <img src="img/coffee.jpg" alt="coffeeImg">
+                <h2>Or Contact me via</h2>
+                <i class="fas fa-envelope"></i><a href="#contact">Link coming soon.</a><br>
+                <i class="fab fa-behance-square"></i><a href="#contact">Link coming soon.</a><br>
+                <i class="fab fa-linkedin"></i><a href="#contact">Link coming soon.</a><br>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

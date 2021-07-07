@@ -1,0 +1,117 @@
+:root {
+    --main: #121619;
+    --secondary: #30373E;
+    --highlight: #05C89F;
+    --text: #F7F7F2;
+  }
+
+body{
+    margin:0;
+    padding:0;
+    background-color: var(--main);
+    font-family: 'Montserrat';
+}
+/* nav{
+    width:100vw;
+} */
+
+nav ul {
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main);
+    margin-right:180px;
+    margin-top:24px;
+    float: right;
+  }
+  
+ nav  li {
+    float: left;
+  }
+  
+ nav  li a {
+    display: block;
+    color: var(--highlight);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ nav li a:hover {
+    background-color:var(--highlight);
+    color:var(--main);
+    border-radius:25px;
+  }
+  
+  main{
+    max-width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:100px;
+  }
+
+  #overview h1{
+      color:var(--highlight);
+      font-size: 48px;
+  }
+
+  #description{
+    width:450px;
+    height:225px;
+    background-color: var(--secondary);
+    border-radius: 10px;
+    color:var(--text);
+    padding:40px;
+    z-index: 10;
+  }
+
+  #description h2{
+      color: var(--highlight);
+      font-size:32px;
+  }
+
+  #kwartjeImg{
+    width: 520px;
+    height: 420px;
+    float:right;
+    margin-top:-350px;
+    margin-bottom: -70px;
+    margin-left:500px;
+    z-index: 0;
+    border-radius: 6px;
+  }
+
+  .process{
+    width:500px;
+    float:left
+  }
+
+  .process img{
+    width: 429px;
+    height:415px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top:110px;
+  }
+
+  #sketch{
+    transform: rotate(90);
+}
+
+  .process h2{
+    font-size:38px;
+    color: var(--highlight);
+  }
+
+  .process p{
+    height:180px;
+    width: 400px;
+    font-size:16px;
+    color:var(--text);
+    text-align: justify;
+  }
+
+ 
